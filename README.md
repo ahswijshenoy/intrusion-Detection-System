@@ -3,8 +3,11 @@
 Step 1: Run the powershell as an administrator (Windows)
 
 python -m venv venv
+
 .\venv\Scripts\Activate
+
 pip install flask bcrypt email-validator user-agents
+
 python .\app.py
 
 Step 2: Check if the website health is working in another powershell terminal
